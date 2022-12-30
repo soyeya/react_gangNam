@@ -1,0 +1,53 @@
+{
+
+    "naviDB" : [
+       
+       {
+            "navititle" : "인물탐방",
+            "naviLink" : "#about"
+
+        },
+       
+        {
+            "navititle" : "작업들",
+            "naviLink" : "#portpolio"
+
+        },
+       
+        {
+            "navititle" : "면접제안",
+            "naviLink" : "#contact"
+
+        },
+       
+        {
+            "navititle" : "사전인터뷰",
+            "naviLink" : "#preinterview"
+
+        }
+    ],
+
+    "work" : [
+
+        {
+
+            "subject" : "리액트광고페이지",
+            
+            "tool" : ["adobeXD" , "illust" , "vscode"],
+
+            "siteurl" : "http://www.nave.com"
+            
+        },
+
+        {
+
+            "subject" : "이커머스",
+            
+            "tool" : ["figma" , "photoshop" , "vscode" , "primium"],
+
+            "siteurl" : "http://www.11st.co.kr"
+
+        }
+    ]
+
+}

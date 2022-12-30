@@ -1,0 +1,104 @@
+:root{
+
+    --yes-active : #7735f8
+}
+/*변수로 사용해서 만들려고 할 것 _부트스트랩의 경우 디바이드 사이즈도 변수명을 사용해서 쓰기도 함 */
+
+*{
+
+    /*영문폰트 먼저, 한글폰트*/
+    font-family: 'Montserrat', 'Gothic+A1' , sans-serif; /*폰트가 늦게 들어오는 경우, sans-serif가 대신 보험으로 들어간다.*/
+    /*우선순위는 영문폰트로 한다_ 한글폰트는 영문폰트도 함께 적용가능하지만 영문폰트의 경우는 한글 폰트 지원을 하지 않으므로*/
+    font-weight: 300;
+    color:#191919;
+
+}
+
+a{
+    text-decoration: none;
+    color:#191919;
+}
+
+ul, dl, ol{
+
+    list-style: none;
+}
+
+a:hover{
+
+    color:var(--yes-active)
+
+}
+
+
+/*공통클래스*/
+
+.activeColor{
+
+    color:var(--yes-active) !important; /*공통클래스는 important를 넣어 우선 순위로 만든다*/
+}
+
+.colorLight{
+
+    color: #ccc !important;
+}
+
+.colorDark{
+
+    color: #191919 !important;
+}
+
+.bgActive{
+
+ background-color:var(--yes-active) !important;
+}
+
+.section{
+
+    padding: 8rem;
+    height:100vh;
+    box-sizing: border-box;
+}
+
+.fw100{
+    font-weight: 100 !important;
+}
+.fw300{
+    font-weight: 300 !important;
+}
+.fw600{
+    font-weight: 600 !important;
+}
+
+.fw600 *{ /*fw600으로 들어간 자식들은 전부(*) 이렇게 되어라*/
+    font-weight: 600 !important;
+}
+
+.font12{
+
+    font-size: 13px !important;
+}
+.font13{
+
+    font-size: 13px !important;
+}
+.font14{
+
+    font-size: 14px !important;
+}
+.font15{
+
+    font-size: 15px !important;
+}
+.font16{
+
+    font-size: 16px !important;
+}
+.font18{
+
+    font-size: 18px !important;
+}
+.font20{
+
+    font-size: 20px !important;
+}
